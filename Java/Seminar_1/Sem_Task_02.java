@@ -1,5 +1,7 @@
 package Java.Seminar_1;
-public class Sem_Task_02 
+import java.util.Arrays;
+public class Sem_Task_02
+
 {
     public static void main(String[] args) 
     {
@@ -21,6 +23,9 @@ public class Sem_Task_02
                 n = 0;
             }
         }
+        System.out.println();
+        System.out.println(Arrays.toString(array));
         System.out.printf("maximum consecutive 1 = %s ", max);
+        System.out.println();
     }
 }
