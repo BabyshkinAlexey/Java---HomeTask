@@ -5,20 +5,15 @@ import java.util.Scanner;
 
 public class Sem_Task_03
 {
-    public static void palindrome(String str)
+    public static boolean palindrome(String str)
     {
-        boolean flag = true;
         int size = str.length();
         for (int i = 0; i < str.length() / 2; i++) 
         {
             if (str.charAt(i) == str.charAt(size - (i + 1))) continue;
-            else 
-            {
-                flag = false;
-                break;
-            }
+            else return false;
         }
-        System.out.print(flag);
+        return true;
     }
     public static void main(String[] args) 
     {
@@ -26,6 +21,6 @@ public class Sem_Task_03
         Scanner console = new Scanner(System.in);
         String str = console.nextLine();
         console.close();
-        palindrome(str);
+        System.out.print(palindrome(str));
     }
 }
