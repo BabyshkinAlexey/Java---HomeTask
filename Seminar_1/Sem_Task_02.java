@@ -1,12 +1,9 @@
-import java.util.Scanner;
-import java.util.*;      
-
-
+package Seminar_1;
 public class Sem_Task_02 
 {
     public static void main(String[] args) 
     {
-        int[] array = new int[] {1, 1, 0, 1, 1, 1, 1, 0, 1};
+        int[] array = new int[] {1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0};
         int n = 0;
         int max = 0;
         for (int i = 0; i < array.length; i++) 
