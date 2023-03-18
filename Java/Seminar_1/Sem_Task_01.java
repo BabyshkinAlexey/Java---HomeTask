@@ -10,8 +10,6 @@ public class Sem_Task_01
         System.out.print("Print name: ");
         Scanner iScanner = new Scanner(System.in);
         String name = iScanner.nextLine();
-        System.out.println();
         System.out.printf("Hellow %s ", name);
-        System.out.println();
     }
 }
